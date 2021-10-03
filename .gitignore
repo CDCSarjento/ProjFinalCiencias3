@@ -31,3 +31,4 @@ hs_err_pid*
 
 # Archivos de análisis
 Analisis*
+/dist/

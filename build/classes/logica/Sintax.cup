@@ -13,14 +13,13 @@ parser code
 }
 :};
 
-terminal Linea, Comillas, T_dato, Cadena, If, Else, Do, While, For, Int, Doble,
-    Igual, Suma, Resta, Multiplicacion, Division, Potencia, Op_logico,
-    Op_relacional, Op_atribucion, Op_incremento, Op_booleano, Op_Mayor, Op_Menor,
-    Parent_a, Parent_c, Coma, Llave_a, Llave_c, Corchete_a, Corchete_c, Main, 
-    P_coma, Punto, Identificador, Numero, Switch, Break, Case, Byte, D_puntos, 
-    Char, Long, Float, Const, Continue, Default, Enum, Extern, Goto, Register, 
-    Return, Union, Short, Unsigned, Struct, Typedef, Cout, Scanf, Cin, Printf, 
-    Include, Using, Namespace, Std, Define, Try, Catch, Sencilla, Endl, ERROR ;
+terminal Linea, Comillas, T_dato, Cadena, If, Else, Do, While, For, Int, Doble, Igual, Suma, Resta
+, Multiplicacion, Division, Potencia, Op_logico, Op_relacional, Op_atribucion, Op_incremento
+, Op_booleano, Op_mayor, Op_menor, Parent_a, Parent_c, Coma, Llave_a, Llave_c, Corchete_a
+, Corchete_c, Main, P_coma, Punto, Identificador, Numero, Switch, Break, Case, Byte, D_puntos
+, Char, Long, Float, Const, Continue, Default, Enum, Extern, Goto, Register, Return, Union, Short
+, Unsigned, Struct, Typedef, Cout, Scanf, Cin, Printf, Include, Using, Namespace, Std, Define
+, Try, Catch, Sencilla, Endl, Error; 
     
 non terminal INICIO, SENTENCIA, DECLARACION, DECLARACION_FOR, IF, IF_ELSE,
     WHILE, DO_WHILE, FOR, SENTENCIA_BOOLEANA, SENTENCIA_FOR, SENTENCIA_RETORNO, 
